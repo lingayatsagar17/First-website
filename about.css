@@ -1,0 +1,32 @@
+body{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('pexels-miguel-á-padriñán-2882509.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+h1{
+    color: #FFE4C4;
+}
+.container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+  }
+  h4{
+    color: lightgreen;
+  }
+  h5{
+    color: #FF0000;
+  }
+ p{
+  font-size:small;
+  color: #ffff;
+ }
+  t{
+        color:#FFE4C4;
+  }
+  

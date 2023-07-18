@@ -1,0 +1,55 @@
+body{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('pexels-pixabay-147413.jpg');
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+h1{
+    color: #FFE4C4;
+}
+img {
+    margin: 8px;
+    margin-left: 12px;
+  }
+  p,h2{
+    position: relative;
+    margin: 12px;
+  
+    color: lightgoldenrodyellow;
+    font-size: large;
+  }
+  
+  
+  .container img {
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+  }
+  h3{
+    color:rgb(255, 0, 0);
+  }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 64px;
+      margin-left: 400px;
+  }
+  
+  .social-media {
+      grid-column: 1 / 2;
+  }
+  
+  .email {
+      grid-column: 2 / 3;
+      text-align: right;
+      margin-right: 400px;
+  }
+  h2{
+    position: relative;
+    float:right;
+    margin-right: 115px;
+  }
+  

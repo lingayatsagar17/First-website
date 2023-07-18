@@ -1,0 +1,51 @@
+body{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('pexels-moose-photos-1037992.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.membership-plans {
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #00aaff;
+    border-right: 1px solid #00aaff;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .plan {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #00aaff;
+    border-right: 1px solid #00aaff;
+    text-align: center;
+  }
+  
+  .plan:first-child {
+    border-left: none;
+  }
+  
+  .plan:last-child {
+    border-right: none;
+  }
+  h2{
+
+    color: aliceblue;
+  }
+
+  p{
+    color: goldenrod;
+  }
+  span{
+    color: green;
+  }
+  h1{
+    color: skyblue;
+  }
+  button{
+    border-radius: 8px;
+    background-color: lightblue;
+    color: rgb(64, 96, 107);
+  }
